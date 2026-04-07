@@ -4,7 +4,7 @@ A machine learning pipeline that predicts **ball-by-ball win probabilities** for
 
 ## Demo
 
-![IPL Win Probability Simulation](demo/demo.mp4)
+<video src="demo/demo.mp4" width="100%" controls></video>
 
 ## Models
 

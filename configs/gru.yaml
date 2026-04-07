@@ -1,0 +1,43 @@
+# GRU Hyperparameter Configurations
+# Each entry in 'configs' is one combination to evaluate via temporal CV
+
+configs:
+  - hidden_dim: 64
+    num_layers: 1
+    dropout: 0.2
+    learning_rate: 0.001
+    batch_size: 64
+    epochs: 30
+    sequence_length: 120
+
+  - hidden_dim: 128
+    num_layers: 2
+    dropout: 0.3
+    learning_rate: 0.001
+    batch_size: 64
+    epochs: 30
+    sequence_length: 120
+
+  - hidden_dim: 64
+    num_layers: 2
+    dropout: 0.2
+    learning_rate: 0.0005
+    batch_size: 32
+    epochs: 40
+    sequence_length: 150
+
+  - hidden_dim: 128
+    num_layers: 1
+    dropout: 0.4
+    learning_rate: 0.001
+    batch_size: 128
+    epochs: 25
+    sequence_length: 120
+
+  - hidden_dim: 256
+    num_layers: 2
+    dropout: 0.3
+    learning_rate: 0.0005
+    batch_size: 64
+    epochs: 30
+    sequence_length: 150

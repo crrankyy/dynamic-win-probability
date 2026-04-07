@@ -1,0 +1,39 @@
+# Random Forest Hyperparameter Configurations
+# Each entry in 'configs' is one combination to evaluate via temporal CV
+
+configs:
+  - n_estimators: 100
+    max_depth: 8
+    min_samples_split: 5
+    min_samples_leaf: 2
+    max_features: "sqrt"
+
+  - n_estimators: 200
+    max_depth: 10
+    min_samples_split: 5
+    min_samples_leaf: 2
+    max_features: "sqrt"
+
+  - n_estimators: 300
+    max_depth: 15
+    min_samples_split: 2
+    min_samples_leaf: 1
+    max_features: "sqrt"
+
+  - n_estimators: 200
+    max_depth: 12
+    min_samples_split: 10
+    min_samples_leaf: 4
+    max_features: "log2"
+
+  - n_estimators: 500
+    max_depth: 10
+    min_samples_split: 5
+    min_samples_leaf: 2
+    max_features: "sqrt"
+
+  - n_estimators: 300
+    max_depth: 20
+    min_samples_split: 2
+    min_samples_leaf: 1
+    max_features: null

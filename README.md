@@ -2,6 +2,10 @@
 
 A machine learning pipeline that predicts **ball-by-ball win probabilities** for IPL matches using five model architectures, evaluated on the 2023 season holdout.
 
+## Demo
+
+![IPL Win Probability Simulation](demo/demo.mp4)
+
 ## Models
 
 | Model | Type | Output |
@@ -11,6 +15,7 @@ A machine learning pipeline that predicts **ball-by-ball win probabilities** for
 | XGBoost | Gradient Boosting | `models/xgboost.pkl` |
 | BiLSTM | PyTorch (sequence) | `models/bilstm.pth` + `bilstm_scaler.pkl` |
 | GRU | PyTorch (sequence) | `models/gru.pth` + `gru_scaler.pkl` |
+
 
 ## Project Structure
 

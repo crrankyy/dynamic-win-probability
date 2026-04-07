@@ -4,7 +4,7 @@ A machine learning pipeline that predicts **ball-by-ball win probabilities** for
 
 ## Demo
 
-<video src="demo/demo.mp4" width="100%" controls></video>
+<video src="https://github.com/crrankyy/dynamic-win-probability/raw/main/demo/demo.mp4" width="100%" controls></video>
 
 ## Models
 
